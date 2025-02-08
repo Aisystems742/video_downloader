@@ -10,7 +10,7 @@ function downloadMedia() {
 
     status.innerText = "Processing...";
 
-    fetch("https://your-backend-url.com/download", {
+    fetch(https://video-downloader-backend-1-p9hs.onrender.com, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ url: url, format: format })
